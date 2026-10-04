@@ -1,0 +1,30 @@
+lottery:
+  cost: 100.0
+  initial-tick-period: 3
+  stop-min-full-cycles: 0
+  stop-extra-random-cycles: 0
+  max-tick-period: 18
+  auto-deliver-on-close: true
+
+book:
+  title-prefix: "酒方："
+  author: "YinwuLottery"
+  max-lines-per-page: 12
+
+messages:
+  prefix: "&6[Yinwu抽奖]&r "
+  player-only: "&c只有玩家可以使用该命令。"
+  no-permission: "&c你没有权限使用该命令。"
+  usage: "&e用法：/yw lottery"
+  reloaded: "&a配置已重载。"
+  no-recipes: "&cBreweryX 当前没有可抽取的酒方。"
+  economy-unavailable: "&c未找到可用的 Vault 经济服务。"
+  not-enough-money: "&c余额不足，需要 {cost}。"
+  charge-failed: "&c扣款失败：{reason}"
+  charged: "&a已支付 {cost}，抽奖开始。"
+  already-running: "&c你已经有一个正在进行的抽奖。"
+  click-stop: "&e再次点击灵魂营火停止转盘。"
+  stopping: "&e转盘正在减速..."
+  won: "&a你抽中了：{recipe}"
+  delivered: "&a酒方已发放。"
+  inventory-full-drop: "&e背包已满，酒方已掉落在你脚边。"

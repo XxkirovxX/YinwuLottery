@@ -1,0 +1,21 @@
+name: YinwuLottery
+main: org.XxkirovxX.plugins.yinwulottery.YinwuLotteryPlugin
+version: ${project.version}
+api-version: '1.21'
+folia-supported: true
+authors: [XxkirovxX]
+depend:
+  - BreweryX
+  - Vault
+commands:
+  yw:
+    description: YinwuLottery command.
+    usage: /<command> lottery
+    aliases: [yinwulottery]
+permissions:
+  yinwulottery.command.lottery:
+    description: Allows opening the recipe lottery UI.
+    default: true
+  yinwulottery.admin.reload:
+    description: Allows reloading YinwuLottery config.
+    default: op
