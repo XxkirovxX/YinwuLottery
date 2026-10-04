@@ -5,6 +5,8 @@
 - 平台：Paper 1.21.4（`api-version: '1.21'`），声明 `folia-supported: true`
 - 命令：`/yw lottery`、`/yw reload`（别名 `/yinwulottery`）
 
+[![Build](https://github.com/XxkirovxX/YinwuLottery/actions/workflows/build.yml/badge.svg)](https://github.com/XxkirovxX/YinwuLottery/actions/workflows/build.yml)
+
 ## 功能
 
 - **箱子转盘 UI**：54 格（6 行 × 9 列）界面，18 个酒方展示位围成一圈，黑玻璃板构成跑道，绿色玻璃板为移动指针。
